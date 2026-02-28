@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main (void){
+    int a, b, soma;
+
+    cout << "Escreva os numeros que você quer somar: ";
+    cin >> a >> b;
+
+    soma = a + b;
+
+    cout << "A soma é " << soma << endl;
+
+    return 0
+}
